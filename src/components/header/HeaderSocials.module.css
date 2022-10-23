@@ -1,0 +1,32 @@
+.header__socials {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+  align-items: center;
+}
+
+.header__socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* =======Media Queries Tablets======= */
+@media screen and (max-width: 1024px) {
+}
+
+/* =======End of Media Queries Tablets======= */
+
+/* =======Media Queries Mobile======= */
+@media screen and (max-width: 600px) {
+  .header__socials {
+    display: none;
+  }
+}
+
+/* =======End of Media Queries Mobile======= */

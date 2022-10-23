@@ -1,0 +1,39 @@
+nav {
+  position: fixed;
+  left: 50%;
+  bottom: 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  transform: translateX(-50%);
+  border-radius: 3rem;
+  margin-top: 1rem;
+  width: max-content;
+  display: block;
+  padding: 0.8rem 2rem;
+  z-index: 2;
+  backdrop-filter: blur(15px);
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-content: center;
+  gap: 0.8rem;
+  font-size: 1.2rem;
+}
+nav a {
+  background: transparent;
+  color: var(--color-light);
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+}
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--color-primary);
+}
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+}
+.icon {
+  padding-top: 3px;
+}
