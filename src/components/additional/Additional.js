@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./Skills.module.css";
+import styles from "./Additional.module.css";
 import { BiCheck } from "react-icons/bi";
 
-const Skills = () => {
+const Additional = () => {
   return (
-    <section id='skills'>
+    <section id='additional'>
       <h5>Additional info</h5>
       <h2>Details</h2>
       <div className={`container ${styles["services__container"]}`}>
@@ -82,4 +82,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Additional;
