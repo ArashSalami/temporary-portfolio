@@ -38,9 +38,9 @@ const Nav = () => {
         </li>
         <li>
           <a
-            href='#skills'
+            href='#additional'
             onClick={setActiveLink}
-            className={activeNav === "#skills" ? styles.active : ""}
+            className={activeNav === "#additional" ? styles.active : ""}
           >
             <RiServiceLine className={styles.icon} />
           </a>
