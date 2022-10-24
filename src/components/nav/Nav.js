@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Nav.module.css";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 
@@ -43,6 +43,15 @@ const Nav = () => {
             className={activeNav === "#additional" ? styles.active : ""}
           >
             <RiServiceLine className={styles.icon} />
+          </a>
+        </li>
+        <li>
+          <a
+            href='#portfolio'
+            onClick={setActiveLink}
+            className={activeNav === "#portfolio" ? styles.active : ""}
+          >
+            <AiOutlineFundProjectionScreen className={styles.icon} />
           </a>
         </li>
         <li>
