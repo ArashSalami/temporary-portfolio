@@ -21,7 +21,7 @@ const about = () => {
             <article className={styles["about__card"]}>
               <FaAward className={styles["about-icon"]} />
               <h5>Experience</h5>
-              <small>6 Months(Self-Tought)</small>
+              <small>1 Year(Self-Tought)</small>
             </article>
             <article className={styles["about__card"]}>
               <FiUser className={styles["about-icon"]} />
